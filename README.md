@@ -16,12 +16,14 @@ USE AT YOUR OWN RISK
 	this should give execute permissions to other .sh files.
 	IF NOT WORKING DO IT MANUALLY TYPING: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
-IF STILL NOT WORKING:  MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
-OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x basckup.sh restore.sh remove-old-keys.sh
+# IF STILL NOT WORKING:  
+MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
 
+OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-TO BACKUP SEAHORSE KEYRINGS (passwords only - NOT ssh keys, etc.)
+# TO BACKUP SEAHORSE KEYRINGS (passwords only - NOT ssh keys, etc.)
 
 Type: ./backup.sh to run backup script
 	This copies keyrings -folder from ~/local/share/keyrings to seahorse-backup-tool -folder making subfolder "seahorse-backup-yyyy-mm-dd" (example seahorse-backup-2025-09-05)
