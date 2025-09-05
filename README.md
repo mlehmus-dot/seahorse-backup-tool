@@ -1,13 +1,13 @@
 # seahorse-backup-tool
 GNOME based password wallet (seahorse) backup and restore tool
 
-<h2>HOW TO USE BACK TOOL:</h2>
-
 # ==TAKE BACKUP==
 
 1a. Copy folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
 
+
 2a. If you want copy passwords from computer A to computer B: Paste seahorse-backup-tool -folder to USB stick
+
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
