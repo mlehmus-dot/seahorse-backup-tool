@@ -12,7 +12,7 @@ USE AT YOUR OWN RISK
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
-4a. type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
+4a. type: <pre>```chmod +x INSTALL.sh```</pre> and then run installer typing: <pre>```/.INSTALL.sh```</pre>
 	this should give execute permissions to other .sh files.
 	IF NOT WORKING DO IT MANUALLY TYPING: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
