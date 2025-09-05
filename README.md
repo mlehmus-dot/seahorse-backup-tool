@@ -7,7 +7,7 @@ Please use with your own risk!
 
 1a. Download folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
 
-2a. Unzip packed example to ~/Download or direct to USB STICK
+2a. Unzip packed to USB STICK
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
