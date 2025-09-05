@@ -5,7 +5,7 @@ Please use with your own risk!
 # ==TAKE BACKUP==
 
 1a. Download folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
-
+# Downloading a zip from Github changes folder name to seahorse-backup-tool-main. You don't need to rename folder. Just follow steps below:
 
 2a. If you want copy passwords from computer A to computer B: Paste seahorse-backup-tool -folder to USB stick
 
@@ -63,8 +63,7 @@ THIS DOESN'T AFFECT TO RESTORING PASSWORD. IT HAS ALREADY BE DONE!
 
 IF YOU CHOOSE TO NOT DELETE BACKUP -FOLDER AND RESTORE IT LATER TO ANOTHER OS: Navigate to /seahorse-backup-tool/saved-backups/ and move backup folder (seahorse-backup-yyyy-mm-dd) to /seahorse-backup-tool/
 
-SCRIPT RESTORES BACKUP ONLY FROM FOLDER /seahorse-backup-tool/
-
+SCRIPT RESTORES BACKUP ONLY FROM FOLDER MAIN FOLDER - NOT FROM SUBFOLDERS
 
 --------------------------------------------------------------
 If restoring backup went like it should, you get prompted:
