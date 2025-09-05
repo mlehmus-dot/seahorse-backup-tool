@@ -16,7 +16,7 @@ GNOME based password wallet (seahorse) backup and restore tool
 	IF NOT WORKING DO IT MANUALLY TYPING: chmod +x basckup.sh restore.sh remove-old-keys.sh
 
 IF STILL NOT WORKING:  MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
-OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x basckup.sh restore.sh remove-old-keys.sh
+OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: 1) chmod +x basckup.sh restore.sh remove-old-keys.sh
 
 
 
@@ -51,10 +51,8 @@ Restoring passwords/keyrings:
 3b. Now it copies keyring -folder to ./local/share/ from /seahorse-backup-tool -folder
 
 4b. When passwords are restored. You can select if you want still keep backup-folder in /seahorse-backup-tool -folder for later use.
-
-	a) If you select Y to yes = seahorse-backup-yyyy-mm-dd -folder will be moved to /seahorse-backup-tool/saved-backups/
-
-	b) If you select N to no =  seahorse-backup-yyyy-mm-dd -folder will be removed from /seahorse-backup-tool -folder
+ If you select Y to yes = seahorse-backup-yyyy-mm-dd -folder will be moved to /seahorse-backup-tool/saved-backups/
+ If you select N to no =  seahorse-backup-yyyy-mm-dd -folder will be removed from /seahorse-backup-tool -folder
 
 5b. Restart OS, log in again and show all restored passwords should be found in seahorse password wallet
 
