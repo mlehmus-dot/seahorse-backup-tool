@@ -11,14 +11,8 @@ Please use with your own risk!
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
-4a. type: <pre>```chmod +x INSTALL.sh && ./INSTALL.sh```</pre> and then run installer typing: <pre>```./INSTALL.sh```</pre>
+4a. type: <pre>```chmod +x INSTALL.sh && ./INSTALL.sh```</pre>
 	this should give execute permissions to other .sh files.
-	IF NOT WORKING DO IT MANUALLY TYPING: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
-
-# IF STILL NOT WORKING:  
-MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: ./INSTALL.sh
-
-OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -27,28 +21,22 @@ OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL,
 Type: <pre>```./backup.sh```</pre> to run backup script
 	This copies keyrings -folder from ~/local/share/keyrings to seahorse-backup-tool -folder making subfolder "seahorse-backup-yyyy-mm-dd" (example seahorse-backup-2025-09-05)
 
-Now your passwords are save in seahorse-backup-tool -folder. You can keep folder in safe place to use it restoring passwords later. If re-installing OS, or want to use passwords on another computer THEN MOVE folder /seahorse-backup-tool to USB Stick.
+# NOW COPY seahorse-backup-tool -FOLDER TO COMPUTER THAT YOU WANT TO HAVE PASSWORDS RESTORED!
+# USE USB STICK ONLY FOR MOVING FOLDER!
 
---------------------------------------------------------------
-If backuping went like it should, you get prompt:
-
-===SEAHORSE KEYRING BACKUP TOOL - BACKUP===
-
-Keyring folder has been copied temporary in this folder.
-
-Now run ./restore.sh on that machine you want restore backups.
---------------------------------------------------------------
 
 # ==RESTORE BACKUP==
 
+# IF YOU USE USB STICK FOR COPYING, PLEASE MOVE /seahorse-backup-tool -folder to HARD DISK type:
+<pre>```mv seahorse-backup-tool* ~``</pre>
 You can restore or copy your passwords to another Linux computer (BE SURE THAT DISTRIBUTION RUNS seahorse (usually named: Passwords and keys) (tested in: Linux Mint XFCE, Cinnamon. Linux MX Fluxbox)
 
 Restoring passwords/keyrings:
 		
-1b. Open terminal and navigate to /seahorse-backup-tool -folder
+1b. Open terminal and navigate to ~/seahorse-backup-tool -folder
 
 2b. Run restoring, type: <pre>```./restore.sh```</pre>
-	IF YOU GET ANY ERRORS MAKE SURE THAT ALL .sh -FILES ARE EXECUTABLE: chmod +x basckup.sh restore.sh remove-old-keys.sh (try step 4a if needed)
+	IF YOU GET ANY ERRORS MAKE SURE THAT ALL .sh -FILES ARE EXECUTABLE: chmod +x backup.sh restore.sh remove-old-keys.sh (try step 4a if needed)
 
 3b. Now it copies keyring -folder to ./local/share/ from /seahorse-backup-tool -folder
 
@@ -63,6 +51,7 @@ THIS DOESN'T AFFECT TO RESTORING PASSWORD. IT HAS ALREADY BE DONE!
 IF YOU CHOOSE TO NOT DELETE BACKUP -FOLDER AND RESTORE IT LATER TO ANOTHER OS: Navigate to /seahorse-backup-tool/saved-backups/ and move backup folder (seahorse-backup-yyyy-mm-dd) to /seahorse-backup-tool/
 
 SCRIPT RESTORES BACKUP ONLY FROM FOLDER MAIN FOLDER - NOT FROM SUBFOLDERS
+
 
 --------------------------------------------------------------
 If restoring backup went like it should, you get prompted:
