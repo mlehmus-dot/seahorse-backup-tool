@@ -1,5 +1,6 @@
 #This will give permission to executing all .sh -files
 chmod +x *.sh
+mkdir saved-backups
 echo
 echo Executing permission added to: restore.sh - backup.sh - remove-old-keys.sh
 echo
