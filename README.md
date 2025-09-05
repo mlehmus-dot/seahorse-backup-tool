@@ -12,12 +12,12 @@ Please use with your own risk!
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
-4a. type: <pre>```chmod +x INSTALL.sh```</pre> and then run installer typing: <pre>```/.INSTALL.sh```</pre>
+4a. type: <pre>```chmod +x INSTALL.sh```</pre> and then run installer typing: <pre>```./INSTALL.sh```</pre>
 	this should give execute permissions to other .sh files.
 	IF NOT WORKING DO IT MANUALLY TYPING: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
 # IF STILL NOT WORKING:  
-MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
+MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: ./INSTALL.sh
 
 OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
@@ -37,7 +37,7 @@ If backuping went like it should, you get prompt:
 
 Keyring folder has been copied temporary in this folder.
 
-Now run /.restore.sh on that machine you want restore backups.
+Now run ./restore.sh on that machine you want restore backups.
 --------------------------------------------------------------
 
 # ==RESTORE BACKUP==
@@ -71,7 +71,7 @@ If restoring backup went like it should, you get prompted:
 ===SEAHORSE KEYRING BACKUP TOOL - RESTORE===
 
 <p>Keyring folder has been restored to:
-/.local/share/keyrings/</p>
+./local/share/keyrings/</p>
 --------------------------------------------------------------
 
 
