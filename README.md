@@ -3,16 +3,15 @@ GNOME based password wallet (seahorse) backup and restore tool
 Please use with your own risk!
 
 # ==TAKE BACKUP==
+# NOTICE: FORMAT YOUR USB STICK TO NTFS OR EXT FILESYSTEM!
 
 1a. Download folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
-# Downloading a zip from Github changes folder name to seahorse-backup-tool-main. You don't need to rename folder. Just follow steps below:
 
-2a. Unzip packed example to ~/Downloads/
+2a. Unzip packed example to ~/Download or direct to USB STICK
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
 4a. type: <pre>```chmod +x INSTALL.sh && ./INSTALL.sh```</pre>
-	this should give execute permissions to other .sh files.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -21,15 +20,10 @@ Please use with your own risk!
 Type: <pre>```./backup.sh```</pre> to run backup script
 	This copies keyrings -folder from ~/local/share/keyrings to seahorse-backup-tool -folder making subfolder "seahorse-backup-yyyy-mm-dd" (example seahorse-backup-2025-09-05)
 
-# NOW COPY seahorse-backup-tool -FOLDER TO COMPUTER THAT YOU WANT TO HAVE PASSWORDS RESTORED!
-# USE USB STICK ONLY FOR MOVING FOLDER!
+NOW EJECT USB STICK FROM YOUR COMPUTER AND PLUG IT COMPUTER YOU WANT TO RESTORE PASSWORDS!
 
 
 # ==RESTORE BACKUP==
-
-# IF YOU USE USB STICK FOR COPYING, PLEASE MOVE /seahorse-backup-tool -folder to HARD DISK type:
-<pre>```mv seahorse-backup-tool* ~``</pre>
-You can restore or copy your passwords to another Linux computer (BE SURE THAT DISTRIBUTION RUNS seahorse (usually named: Passwords and keys) (tested in: Linux Mint XFCE, Cinnamon. Linux MX Fluxbox)
 
 Restoring passwords/keyrings:
 		
@@ -52,6 +46,7 @@ IF YOU CHOOSE TO NOT DELETE BACKUP -FOLDER AND RESTORE IT LATER TO ANOTHER OS: N
 
 SCRIPT RESTORES BACKUP ONLY FROM FOLDER MAIN FOLDER - NOT FROM SUBFOLDERS
 
+You can restore or copy your passwords to another Linux computer (BE SURE THAT DISTRIBUTION RUNS seahorse (usually named: Passwords and keys) (tested in: Linux Mint XFCE, Cinnamon. Linux MX Fluxbox)
 
 --------------------------------------------------------------
 If restoring backup went like it should, you get prompted:
