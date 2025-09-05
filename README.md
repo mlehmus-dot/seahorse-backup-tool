@@ -4,7 +4,7 @@ Please use with your own risk!
 
 # ==TAKE BACKUP==
 
-1a. Copy folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
+1a. Download folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
 
 
 2a. If you want copy passwords from computer A to computer B: Paste seahorse-backup-tool -folder to USB stick
