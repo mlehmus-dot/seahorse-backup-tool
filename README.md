@@ -45,6 +45,6 @@ SELECTION DOESN'T AFFECT TO RESTORING PASSWORD. IT HAS ALREADY BE DONE!
 Restoring password uses only /seahorse-backup-tool -folder.<br><br>
 So if there is spesific backup to restore, first: <br>
 <b>Copy backup folder from /seahorse-backup-tool/saved-backups/ to /seahorse-backup-tool/ and run ./restore.sh</b><br>
-Example: cp -r seahorse-backup-tool/saved-backups/seahorse-backup-yyyy-mm-dd   seahorse-backup-tool/
+Example: copy folder seahorse-backup-tool/saved-backups/<b>seahorse-backup-yyyy-mm-dd<b> to seahorse-backup-tool/
 <br><br>
 SEAHORSE KEYRING PASSWORD NOT CHANGE AUTOMATICLY DURING THIS PROCESS! TO OPEN PASSWORD LISTING USE SAME PASSWORD THAN BEFORE UPDATE!
