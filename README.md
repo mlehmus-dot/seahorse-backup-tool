@@ -25,7 +25,7 @@ OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL,
 
 # TO BACKUP SEAHORSE KEYRINGS (passwords only - NOT ssh keys, etc.)
 
-Type: ./backup.sh to run backup script
+Type: <pre>```./backup.sh```</pre> to run backup script
 	This copies keyrings -folder from ~/local/share/keyrings to seahorse-backup-tool -folder making subfolder "seahorse-backup-yyyy-mm-dd" (example seahorse-backup-2025-09-05)
 
 Now your passwords are save in seahorse-backup-tool -folder. You can keep folder in safe place to use it restoring passwords later. If re-installing OS, or want to use passwords on another computer THEN MOVE folder /seahorse-backup-tool to USB Stick.
@@ -48,7 +48,7 @@ Restoring passwords/keyrings:
 		
 1b. Open terminal and navigate to /seahorse-backup-tool -folder
 
-2b. Run restoring, type: ./restore.sh
+2b. Run restoring, type: <pre>```./restore.sh```</pre>
 	IF YOU GET ANY ERRORS MAKE SURE THAT ALL .sh -FILES ARE EXECUTABLE: chmod +x basckup.sh restore.sh remove-old-keys.sh (try step 4a if needed)
 
 3b. Now it copies keyring -folder to ./local/share/ from /seahorse-backup-tool -folder
