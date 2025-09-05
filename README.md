@@ -1,6 +1,6 @@
 # seahorse-backup-tool
 GNOME based password wallet (seahorse) backup and restore tool
-USE AT YOUR OWN RISK
+# USE AT YOUR OWN RISK
 
 # ==TAKE BACKUP==
 
