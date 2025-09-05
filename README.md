@@ -14,10 +14,10 @@ USE AT YOUR OWN RISK
 
 4a. type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
 	this should give execute permissions to other .sh files.
-	IF NOT WORKING DO IT MANUALLY TYPING: chmod +x basckup.sh restore.sh remove-old-keys.sh
+	IF NOT WORKING DO IT MANUALLY TYPING: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
 IF STILL NOT WORKING:  MOVE SEAHORSE-BACKUP-TOOL FROM USB STICK TO ~/seahorse-backup-tool/ and try repeat givin permissions: Navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x INSTALL.sh and then run installer typing: /.INSTALL.sh
-OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: 1) chmod +x basckup.sh restore.sh remove-old-keys.sh
+OR IF NEEDED, DO IT MANUALY: navigate to ~/seahorse-backup-tool and in TERMINAL, type: chmod +x basckup.sh restore.sh remove-old-keys.sh
 
 
 
@@ -43,7 +43,7 @@ Now run /.restore.sh on that machine you want restore backups.
 You can restore or copy your passwords to another Linux computer (BE SURE THAT DISTRIBUTION RUNS seahorse (usually named: Passwords and keys) (tested in: Linux Mint XFCE, Cinnamon. Linux MX Fluxbox)
 
 Restoring passwords/keyrings:
-
+		
 1b. Open terminal and navigate to /seahorse-backup-tool -folder
 
 2b. Run restoring, type: ./restore.sh
