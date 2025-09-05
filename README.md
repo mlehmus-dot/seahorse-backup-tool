@@ -7,12 +7,11 @@ Please use with your own risk!
 1a. Download folder "seahorse-backup-tool" (inc. files: backup.sh, restore.sh, remove-old-keys.sh, INSTALL.sh and folder named: saved-backup)
 # Downloading a zip from Github changes folder name to seahorse-backup-tool-main. You don't need to rename folder. Just follow steps below:
 
-2a. If you want copy passwords from computer A to computer B: Paste seahorse-backup-tool -folder to USB stick
-
+2a. Unzip packed example to ~/Downloads/
 
 3a. Open terminal and navigate to seahorse-backup-tool -folder
 
-4a. type: <pre>```chmod +x INSTALL.sh```</pre> and then run installer typing: <pre>```./INSTALL.sh```</pre>
+4a. type: <pre>```chmod +x INSTALL.sh && ./INSTALL.sh```</pre> and then run installer typing: <pre>```./INSTALL.sh```</pre>
 	this should give execute permissions to other .sh files.
 	IF NOT WORKING DO IT MANUALLY TYPING: <pre>```chmod +x basckup.sh restore.sh remove-old-keys.sh```</pre>
 
