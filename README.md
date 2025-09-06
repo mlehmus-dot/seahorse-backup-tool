@@ -1,5 +1,5 @@
 # seahorse-backup-tool
-Password wallet (seahorse) backup and restore tool (Tested with: Linux Mint XFCE, Mint Cinnamon. Linux MX Fluxbox)
+Password wallet (seahorse) backup and restore tool (Tested with: Linux Mint XFCE, Linux Mint Cinnamon. Linux MX Fluxbox, Linux RaspiOS Bullseye 11)
 Please use with your own risk!
 
 <b> ==BACKUP PASSWORDS==</b><br><br>
