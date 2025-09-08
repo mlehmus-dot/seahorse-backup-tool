@@ -17,7 +17,7 @@ NOTICE: FORMAT YOUR USB STICK TO NTFS OR EXT FILESYSTEM!
 
 # TO BACKUP SEAHORSE KEYRINGS (passwords only - NOT ssh keys, etc.)
 
-Make sure you are still in USB-STICK\seahorse-backup-tool -folder.
+Make sure you are still in USB-STICK/seahorse-backup-tool -folder.
 
 To take backup type: <pre>```./backup.sh```</pre> 
 
